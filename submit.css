@@ -1,0 +1,16 @@
+img{
+    width:100px;
+    height:100px;
+    top:100px;
+    left:700px;
+    position:relative;
+
+}
+body{
+    overflow-x:hidden;
+}
+.text{
+    top:150px;
+    left:600px;
+    position:relative;
+}

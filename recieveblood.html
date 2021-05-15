@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+     <meta charset="utf-8">
+        <meta name="description" content="Forms">
+        <title>Recieve Blood</title> 
+        <link rel="icon" href="E:\Php training\Blood Bank\blood-drop-55-1121595.png" type="image/icon type">
+        <link rel="stylesheet" type="text/css" href="blood.css" media="screen">
+    </head>
+    <body>
+        <br>
+    <h2>"We pray for whom this blood is required,Get wells soon"</h2>
+<div class="pd">
+   <form method="get" action="Submit.html">
+        <fieldset>
+        <legend>Personal Details</legend>
+        <strong><label for ="Yourname"> Name :</label></strong> 
+        <input type="text" id="Yourname" placeholder="Enter your full name"><br><br>
+        <strong><label for ="Youremailid"> Email-id :</label></strong> 
+        <input type="email" id="Youremailid" placeholder="Enter your email-id"><br><br>
+         <strong><label for ="Yourmobilenumber"> Mobile Number :</label></strong> 
+        <input type="tel" id="Yourmobilenumber" placeholder="Enter your phone number"><br><br>
+        <strong><label for ="Yourbloodgroup">Blood Group :</label></strong> 
+        <select>
+            <option>A +</option>
+            <option>A -</option>
+            <option>B +</option>
+            <option>B -</option>
+            <option>AB +</option>
+            <option>AB -</option>
+            <option>O +</option>
+            <option>O -</option>
+        </select><br><br>
+        <strong><label for ="Yourbirthdate">DOB :</label></strong> 
+        <input type="" id="Yourbirthdate" placeholder="DD/MM/YY"><br><br>
+        <strong><label for ="Yourage">Age :</label></strong> 
+        <input type="number" id="Yourage" placeholder="Enter your age"><br><br>
+        <strong><label for ="Gender"> Gender:</label></strong> 
+           &nbsp;&nbsp;<input type="radio" name="gender" value="male"> Male
+           <input type="radio" name="gender" value="female"> Female
+           <input type="radio" name="gender" value="other"> Other<br><br>
+        <strong><label for ="Yourcity">Select Your City</label></strong> 
+        <select>
+            <option>Ahmedabad</option>
+            <option>Surat</option>
+            <option>Delhi</option>
+            <option>Mumbai</option>
+        </select>
+        <br><br>
+        <strong><label for ="Youraddress">Address :</label></strong><br>
+         <textarea id="Youraddress" rows="5" cols="50"></textarea><br><br>
+     </fieldset><br>
+     <fieldset>
+        <legend>Recieve Blood</legend>
+        <table border="5px">
+            <tbody>
+            <tr>
+            <td><b>Blood Type</b></td>&nbsp;
+            <td><b>You can Receive Blood From</b></td>
+            </tr>
+            <tr>
+            <td><span style="color: #961e1b;"><b>A+</b></span></td>
+            <td>A+ A- O+ O-</td>
+            </tr>
+            <tr>
+            <td><span style="color: #961e1b;"><b>O+</b></span></td>
+            <td>O+ O-</td>
+            </tr>
+            <tr>
+            <td><span style="color: #961e1b;"><b>B+</b></span></td>
+            <td>B+ B- O+ O-</td>
+            </tr>
+            <tr>
+            <td><span style="color: #961e1b;"><b>AB+</b></span></td>
+            <td>Everyone</td>
+            </tr>
+            <tr>
+            <td><span style="color: #961e1b;"><b>A-</b></span></td>
+            <td>A- O-</td>
+            </tr>
+            <tr>
+            <td><span style="color: #961e1b;"><b>O-</b></span></td>
+            <td>O-</td>
+            </tr>
+            <tr>
+            <td><span style="color: #961e1b;"><b>B-</b></span></td>
+            <td>B- O-</td>
+            </tr>
+            <tr>
+            <td><span style="color: #961e1b;"><b>AB-</b></span></td>
+            <td>AB- A- B- O-</td>
+            </tr>
+            </tbody>
+        </table><br><br>
+        <strong><label for ="Yourchoice"> Enter the blood group from which you want to recieve blood:</label></strong> 
+        <input type="text" id="Yourchoice" placeholder="Enter your choice"><br><br>
+        </fieldset><br><br>
+        <input type="submit" class="first">
+        <input type="reset" class="first" >
+     <br><br>
+    </form>
+</div>
+</body>
+</html>

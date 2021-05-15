@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+     <meta charset="utf-8">
+        <meta name="description" content="Forms">
+        <title>Donate blood</title>
+        <link rel="icon" href="E:\Php training\Blood Bank\blood-drop-55-1121595.png" type="image/icon type">
+        <link rel="stylesheet" type="text/css" href="blood.css" media="screen">
+    </head>
+    <body>
+        <br>
+    <h2>"Excuses never save a life, Blood donation does."</h2>
+        <div class="pd">
+   <form method="get" action="Submit.html">
+    <fieldset>
+        <legend>Personal Details</legend>
+        <strong><label for ="Yourname"> Name :</label></strong> 
+        <input type="text" id="Yourname" placeholder="Enter your full name"><br><br>
+        <strong><label for ="Youremailid"> Email-id :</label></strong> 
+        <input type="email" id="Youremailid" placeholder="Enter your email-id"><br><br>
+         <strong><label for ="Yourmobilenumber"> Mobile Number :</label></strong> 
+        <input type="tel" id="Yourmobilenumber" placeholder="Enter your phone number"><br><br>
+        <strong><label for ="Yourbloodgroup">Blood Group :</label></strong> 
+        <select>
+            <option>A +</option>
+            <option>A -</option>
+            <option>B +</option>
+            <option>B -</option>
+            <option>AB +</option>
+            <option>AB -</option>
+            <option>O +</option>
+            <option>O -</option>
+        </select><br><br>
+        <strong><label for ="Yourbirthdate">DOB :</label></strong> 
+        <input type="" id="Yourbirthdate" placeholder="DD/MM/YY"><br><br>
+        <strong><label for ="Yourage">Age :</label></strong> 
+        <input type="number" id="Yourage" placeholder="Enter your age"><br><br>
+        <strong><label for ="Gender"> Gender:</label></strong> 
+           &nbsp;&nbsp;<input type="radio" name="gender" value="male"> Male
+           <input type="radio" name="gender" value="female"> Female
+           <input type="radio" name="gender" value="other"> Other<br><br>
+        <strong><label for ="Yourcity">Select Your City</label></strong> 
+        <select>
+            <option>Ahmedabad</option>
+            <option>Surat</option>
+            <option>Delhi</option>
+            <option>Mumbai</option>
+        </select>
+        <br><br>
+        <strong><label for ="Youraddress">Address :</label></strong><br>
+         <textarea id="Youraddress" rows="5" cols="50"></textarea><br><br>
+     </fieldset><br>
+     <fieldset>
+        <legend>Criteria to donate blood</legend>
+        <p>There are several parameters that determine the eligibility of an individual to donate blood. Guidelines laid down by the Ministry of Health, Government of India have to be followed by blood banks and organizations conducting blood donation camps.
+        </p>
+        <ul><li><u>Overall health </u>- The donor must be fit and healthy, and should not be suffering from transmittable diseases.</li>
+        <li><u>Age and weight </u>- The donor must be 18–65 years old and should weigh a minimum of 50 kg.</li>
+        <li><u>Pulse rate </u> - Between 50 and 100 without irregularities.</li>
+        <li><u>Hemoglobin level</u>- A minimum of 12.5 g/dL.</li>
+        <li></u>Blood pressure</u>-Diastolic: 50–100 mm Hg, Systolic: 100–180 mm Hg.</li>
+        <li><u>Body temperature</u>- Should be normal, with an oral temperature not exceeding 37.5°C.</li>
+        <li>The time period between successive blood donations should be more than 3 months.</li></ul>
+        <p>Individuals under certain conditions are deemed ineligible to donate blood:</p>
+        <ul><li>A person who has been tested HIV positive.</li>
+        <li>Individuals suffering from ailments like cardiac arrest, hypertension, blood pressure, cancer, epilepsy, kidney ailments and diabetes.</li>
+        <li>A person who has undergone ear/body piercing or tattoo in the past 6 months.</li>
+        <li>Individuals who have undergone immunization in the past 1 month.</li>
+        <li>Individuals treated for rabies or received Hepatitis B vaccine in the past 6 months.</li>
+        <li>A person who has consumed alcohol in the past 24 hours.</li>
+        <li>Women who are pregnant or breastfeeding.</li>
+        <li>Individuals who have undergone major dental procedures or general surgeries in the past 1 month.</li>
+        <li>Women who have had miscarriage in the past 6 months.</li>
+        <li>Individuals who have had fits, tuberculosis, allergic disorders in the past.</li>
+        <li>Individuals who currently have asthma with active symptoms, and severe asthma patients.</li></ul>
+        <p style="font-size: larger; font-family: 'Times New Roman', Times, serif; color:brown">If you don't fit the criteria please do not submit your form.</p>
+    </fieldset><br><br>
+     <input type="submit" class="first">
+     <input type="reset" class="first" >
+     <br><br>
+    </div>
+ </form>
+</html>

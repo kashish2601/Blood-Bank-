@@ -1,0 +1,65 @@
+.heading{
+    background-image:url(https://media.giphy.com/media/3o6vXLN7CQSjtLUHJu/giphy.gif);
+    color:white;
+    text-align: center;
+  background-repeat: no-repeat;
+  background-size: 3000px 200px;
+}
+.box{
+  width: 290px;
+   border-radius:50px;
+   padding:90px;
+   margin:100px;
+   background-image:url(https://downloadwap.com/thumbs3/screensavers/d/new/misc/blood_drop-243116.gif);
+   /*background-color:black;*/
+   float:left;
+   left:50px;
+   position:relative;
+}
+#centre{
+    text-align:center;
+    color:white;
+}
+button{
+    background-color:white;
+    font-family:cursive;
+    font-size:100%;
+}
+button:hover{
+    background-color: rgb(247, 115, 115);
+}
+.first{
+    top:0pc;
+    left:60px;
+    position: relative;
+    width:10pc; 
+    height:50px; 
+    border-radius:10px;
+}
+video{
+    padding: 50px;
+    height: 450px;  
+    width: 500px;
+    border-radius:50px;
+    float:right;
+    right:100px;
+    bottom:50px;
+    position:relative;
+  }
+  #right{    
+    text-align: right;  
+    }
+.text{
+    text-align: center; 
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color:red;
+    top:90px;
+    left:30px;
+    position:relative;
+}
+body{
+    margin:0%;
+    margin-bottom:0%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
